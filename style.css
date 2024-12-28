@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	grid-template-columns: row;
+}
+.intructions ul {
+	margin-top: 10px;
+}
+
+.intructions li {
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	font-weight: bolder;
+	border: 2px solid; 
+	padding: 5px;
+	background: linear-gradient(to left, darkred, lightyellow); 
+	color: purple;
+	text-shadow: 0 0 10px lightyellow, 0 0 20px lightyellow, 0 0 30px lightyellow, 0 0 10px black;
+	border-radius: 4px;
+}
+
+.credits {
+	position: fixed;
+	bottom: 0;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.mapLocation {
+	top: 10px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.mapLocation #submitButton {
+	width: 100px;
+	height: 50px;
+	background-color: rgba(225, 225, 0, 0.15);
+	font-weight: bold;
+    font-size: 1.5rem;
+} 
+.mapLocation #submitButton:hover {
+	background-color: rgba(255, 255, 0, 1);
+}
+.mapLocation #countryText, #regionText {
+	font-weight: bold;
+    font-size: 20px;
+	font-family: monospace;
+
+}
+.map {
+	height: 60vh;
+	width: 40vh;
+	border: 3px solid red;
+
+}
+
+.geoAtlas {
+	margin-top: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-family: monospace;
+	line-height: 200%;
+}
+
+.country,
+.region {
+	font-size: 30px;
+	
+}
+
+.region {
+	margin-top: 20px;
+}
+
+#wikiInfo {
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+#wikiInfoRegion {
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+#websiteWelcome {
+	margin-top: 20;
+	font-size: 30px;
+	font-style: monospace;
+	font-weight: bold;
+	border: 2px solid;
+	border-radius: 20px;
+	padding: 20px;
+	background: radial-gradient(circle, lightblue, darkblue);
+	color: white;
+	text-shadow: 0 0 10px lightyellow, 0 0 20px lightyellow, 0 0 30px lightyellow, 0 0 10px black;
+}
