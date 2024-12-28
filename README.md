@@ -1,8 +1,9 @@
 # Mini-Atlas
 it is as the name implies
-This website was created for a school assignment 
-To use this application, install than add your OpenCage API Key to the Top of the script file
-Afterwards the application should run smooth as butter (besides the Ui, you can tell I was not being marked on the Ui)
+
+- This website was created for a school assignment
+- To use this application, install than add your OpenCage API Key to the Top of the script file
+- Afterwards the application should run smooth as butter (besides the Ui, you can tell I was not being marked on the Ui)
 
 Images from the Web App:
 
