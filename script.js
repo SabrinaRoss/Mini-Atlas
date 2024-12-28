@@ -38,7 +38,6 @@ function initMap() {
     });
 }
 function findCountry(lon, lat) {
-	console.log(YOUR_API_KEY)
 var api_key = String(YOUR_API_KEY);
   var coords = lat + ',' + lon;  // lat,lng
 	
@@ -99,8 +98,6 @@ async function fetchText() {
 	let data = await response.json();
 	console.log(data);
 }
-
-//Key: 035d9abf519e4f16bf89cb249c80f2f7 
 
 
 
